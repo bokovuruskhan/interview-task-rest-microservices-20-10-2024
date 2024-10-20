@@ -1,4 +1,4 @@
-package bokovuruskhan.roles_rest;
+package bokovuruskhan.users_rest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

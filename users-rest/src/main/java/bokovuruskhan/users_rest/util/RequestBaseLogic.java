@@ -1,6 +1,6 @@
-package bokovuruskhan.roles_rest.util;
+package bokovuruskhan.users_rest.util;
 
-import bokovuruskhan.roles_rest.controller.ex.UserNotFoundException;
+import bokovuruskhan.users_rest.controller.ex.UserNotFoundException;
 import bokovuruskhan.common.util.RestUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

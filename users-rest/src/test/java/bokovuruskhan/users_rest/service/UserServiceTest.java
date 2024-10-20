@@ -1,9 +1,9 @@
-package bokovuruskhan.roles_rest.service;
+package bokovuruskhan.users_rest.service;
 
-import bokovuruskhan.roles_rest.controller.ex.UserNotFoundException;
-import bokovuruskhan.roles_rest.data.model.User;
-import bokovuruskhan.roles_rest.data.repository.IUserRepository;
-import bokovuruskhan.roles_rest.service.impl.UserService;
+import bokovuruskhan.users_rest.controller.ex.UserNotFoundException;
+import bokovuruskhan.users_rest.data.model.User;
+import bokovuruskhan.users_rest.data.repository.IUserRepository;
+import bokovuruskhan.users_rest.service.impl.UserService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

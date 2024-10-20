@@ -1,4 +1,4 @@
-package bokovuruskhan.roles_rest.controller.ex;
+package bokovuruskhan.users_rest.controller.ex;
 
 public class UserNotFoundException extends RuntimeException {
     public UserNotFoundException(String message) {

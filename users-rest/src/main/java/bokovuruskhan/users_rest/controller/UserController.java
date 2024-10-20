@@ -1,9 +1,9 @@
-package bokovuruskhan.roles_rest.controller;
+package bokovuruskhan.users_rest.controller;
 
-import bokovuruskhan.roles_rest.config.RestConfig;
-import bokovuruskhan.roles_rest.util.RequestBaseLogic;
-import bokovuruskhan.roles_rest.data.model.User;
-import bokovuruskhan.roles_rest.service.IUserService;
+import bokovuruskhan.users_rest.config.RestConfig;
+import bokovuruskhan.users_rest.util.RequestBaseLogic;
+import bokovuruskhan.users_rest.data.model.User;
+import bokovuruskhan.users_rest.service.IUserService;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

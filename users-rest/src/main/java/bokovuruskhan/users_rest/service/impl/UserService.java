@@ -1,9 +1,9 @@
-package bokovuruskhan.roles_rest.service.impl;
+package bokovuruskhan.users_rest.service.impl;
 
-import bokovuruskhan.roles_rest.controller.ex.UserNotFoundException;
-import bokovuruskhan.roles_rest.data.model.User;
-import bokovuruskhan.roles_rest.data.repository.IUserRepository;
-import bokovuruskhan.roles_rest.service.IUserService;
+import bokovuruskhan.users_rest.controller.ex.UserNotFoundException;
+import bokovuruskhan.users_rest.data.model.User;
+import bokovuruskhan.users_rest.data.repository.IUserRepository;
+import bokovuruskhan.users_rest.service.IUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

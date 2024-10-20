@@ -1,4 +1,4 @@
-package bokovuruskhan.roles_rest.data.model;
+package bokovuruskhan.users_rest.data.model;
 
 
 import jakarta.persistence.*;

@@ -1,6 +1,6 @@
-package bokovuruskhan.roles_rest.service;
+package bokovuruskhan.users_rest.service;
 
-import bokovuruskhan.roles_rest.data.model.User;
+import bokovuruskhan.users_rest.data.model.User;
 
 import java.util.List;
 

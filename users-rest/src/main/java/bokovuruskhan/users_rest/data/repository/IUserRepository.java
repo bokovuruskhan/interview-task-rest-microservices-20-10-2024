@@ -1,6 +1,6 @@
-package bokovuruskhan.roles_rest.data.repository;
+package bokovuruskhan.users_rest.data.repository;
 
-import bokovuruskhan.roles_rest.data.model.User;
+import bokovuruskhan.users_rest.data.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
