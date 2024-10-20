@@ -29,7 +29,7 @@ public class RoleController {
         return userService.getAllRoles();
     }
 
-    @GetMapping(value = "/{userId}")
+    @GetMapping(value = "/{roleId}")
     @ApiResponse(content = @Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = Role.class)))
     public ResponseEntity<?> getRoleById(@PathVariable Long roleId) {
         return RequestBaseLogic.handleRequest(() -> ResponseEntity.ok(userService.getRoleById(roleId)));
@@ -41,13 +41,13 @@ public class RoleController {
         return RequestBaseLogic.handleRequest(() -> ResponseEntity.ok(userService.createRole(role)));
     }
 
-    @PutMapping(value = "/{userId}")
+    @PutMapping(value = "/{roleId}")
     @ApiResponse(content = @Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = Role.class)))
     public ResponseEntity<?> updateRole(@PathVariable Long roleId, @RequestBody Role role) {
         return RequestBaseLogic.handleRequest(() -> ResponseEntity.ok(userService.updateRole(roleId, role)));
     }
 
-    @DeleteMapping(value = "/{userId}")
+    @DeleteMapping(value = "/{roleId}")
     @ApiResponse(content = @Content(mediaType = APPLICATION_JSON_VALUE, schema = @Schema(implementation = Role.class)))
     public ResponseEntity<?> deleteRole(@PathVariable Long roleId) {
         return RequestBaseLogic.handleRequest(() -> ResponseEntity.ok(userService.deleteRole(roleId)));
