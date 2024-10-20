@@ -9,4 +9,5 @@ pluginManagement {
 rootProject.name = 'interview-task-rest-microservices-20-10-2024'
 
 include 'users-rest'
+include 'roles-rest'
 include 'common'
