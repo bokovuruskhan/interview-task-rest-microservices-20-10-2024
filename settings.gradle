@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        maven { url 'https://repo.spring.io/milestone' }
+        maven { url 'https://repo.spring.io/snapshot' }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'interview-task-rest-microservices-20-10-2024'
+
+include 'users-rest'
+include 'common'
