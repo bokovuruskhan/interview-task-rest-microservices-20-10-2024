@@ -28,16 +28,23 @@ public class UserService implements IUserService {
 
     @Override
     public User createUser(User user) {
-        return null;
+        user.setId(null);
+        return userRepository.save(user);
     }
 
     @Override
-    public User updateUser(Long userId, User user) {
-        return null;
+    public User updateUser(Long userId, User updateBody) {
+        User findUser = getUserById(userId);
+        findUser.setEmail(updateBody.getEmail());
+        findUser.setUsername(updateBody.getUsername());
+        findUser.setPassword(updateBody.getPassword());
+        return userRepository.save(findUser);
     }
 
     @Override
     public User deleteUser(Long userId) {
-        return null;
+        User findUser = getUserById(userId);
+        userRepository.delete(findUser);
+        return findUser;
     }
 }

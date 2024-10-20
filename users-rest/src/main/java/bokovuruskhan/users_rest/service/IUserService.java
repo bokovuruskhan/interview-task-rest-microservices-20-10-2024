@@ -11,7 +11,7 @@ public interface IUserService {
 
     User createUser(User user);
 
-    User updateUser(Long userId, User user);
+    User updateUser(Long userId, User updateBody);
 
     User deleteUser(Long userId);
 

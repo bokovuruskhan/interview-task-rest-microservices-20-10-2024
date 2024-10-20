@@ -2,6 +2,7 @@ package bokovuruskhan.users_rest.data.model;
 
 
 import jakarta.persistence.*;
+import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -9,10 +10,11 @@ import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "user_ext")
+@Data
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(unique = true)
