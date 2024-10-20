@@ -1,4 +1,6 @@
 /roles-rest/build/
 /common/build/
+/users-rest/build/
 /.idea/
 /.gradle/
+/users-roles-rest/build/

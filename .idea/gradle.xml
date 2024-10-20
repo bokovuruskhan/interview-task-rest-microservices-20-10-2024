@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/common" />
             <option value="$PROJECT_DIR$/roles-rest" />
             <option value="$PROJECT_DIR$/users-rest" />
+            <option value="$PROJECT_DIR$/users-roles-rest" />
           </set>
         </option>
       </GradleProjectSettings>

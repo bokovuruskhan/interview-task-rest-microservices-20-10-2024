@@ -9,6 +9,7 @@
         </processorPath>
         <module name="interview-task-rest-microservices-20-10-2024.common.main" />
         <module name="interview-task-rest-microservices-20-10-2024.roles-rest.main" />
+        <module name="interview-task-rest-microservices-20-10-2024.users-roles-rest.main" />
         <module name="interview-task-rest-microservices-20-10-2024.users-rest.main" />
       </profile>
     </annotationProcessing>
