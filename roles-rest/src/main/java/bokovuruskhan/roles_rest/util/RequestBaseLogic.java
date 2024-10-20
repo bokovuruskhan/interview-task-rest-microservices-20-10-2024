@@ -1,5 +1,6 @@
 package bokovuruskhan.roles_rest.util;
 
+import bokovuruskhan.common.util.RestUtils;
 import bokovuruskhan.roles_rest.controller.ex.RoleNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

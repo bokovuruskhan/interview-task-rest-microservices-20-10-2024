@@ -1,4 +1,4 @@
-package bokovuruskhan.util;
+package bokovuruskhan.common.util;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

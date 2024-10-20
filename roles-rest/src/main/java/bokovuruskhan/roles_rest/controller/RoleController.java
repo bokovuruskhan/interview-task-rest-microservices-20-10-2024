@@ -17,7 +17,7 @@ import java.util.List;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
-@RequestMapping(value = RestConfig.API_PREFIX + "/users", produces = APPLICATION_JSON_VALUE)
+@RequestMapping(value = RestConfig.API_PREFIX, produces = APPLICATION_JSON_VALUE)
 @AllArgsConstructor
 public class RoleController {
 

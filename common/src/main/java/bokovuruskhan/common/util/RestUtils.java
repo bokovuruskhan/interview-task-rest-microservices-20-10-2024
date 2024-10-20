@@ -1,4 +1,4 @@
-package bokovuruskhan.roles_rest.util;
+package bokovuruskhan.common.util;
 
 public class RestUtils {
     public static ErrorDescription prepareErrorBody(Exception ex) {
