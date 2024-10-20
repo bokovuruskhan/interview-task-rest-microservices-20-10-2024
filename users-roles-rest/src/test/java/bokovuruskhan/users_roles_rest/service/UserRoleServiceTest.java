@@ -73,10 +73,10 @@ class UserRoleServiceTest {
     void testDeleteRoleFromUser() {
         when(userRoleRepository.findByRoleIdAndUserId(1L, 1L)).thenReturn(userRole);
 
-        UserRole result = userRoleService.deleteRoleFromUser(1L, 1L);
+        List<UserRole> result = userRoleService.deleteRoleFromUser(1L, 1L);
 
         assertNotNull(result);
-        assertEquals(userRole, result);
+        assertFalse(result.contains(userRole));
 
         verify(userRoleRepository, times(1)).findByRoleIdAndUserId(1L, 1L);
         verify(userRoleRepository, times(1)).delete(userRole);
