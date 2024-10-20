@@ -1,9 +1,8 @@
 package bokovuruskhan.roles_rest.service;
 
-import bokovuruskhan.database.model.Role;
-import bokovuruskhan.database.repository.IRoleRepository;
 import bokovuruskhan.roles_rest.controller.ex.RoleNotFoundException;
-
+import bokovuruskhan.roles_rest.data.model.Role;
+import bokovuruskhan.roles_rest.data.repository.IRoleRepository;
 import bokovuruskhan.roles_rest.service.impl.RoleService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,8 @@
 package bokovuruskhan.users_rest.service;
 
-
-import bokovuruskhan.database.model.User;
-import bokovuruskhan.database.repository.IUserRepository;
 import bokovuruskhan.users_rest.controller.ex.UserNotFoundException;
-
+import bokovuruskhan.users_rest.data.model.User;
+import bokovuruskhan.users_rest.data.repository.IUserRepository;
 import bokovuruskhan.users_rest.service.impl.UserService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

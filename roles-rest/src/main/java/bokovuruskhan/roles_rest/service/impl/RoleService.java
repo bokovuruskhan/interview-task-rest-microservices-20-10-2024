@@ -1,8 +1,8 @@
 package bokovuruskhan.roles_rest.service.impl;
 
-import bokovuruskhan.database.model.Role;
-import bokovuruskhan.database.repository.IRoleRepository;
 import bokovuruskhan.roles_rest.controller.ex.RoleNotFoundException;
+import bokovuruskhan.roles_rest.data.model.Role;
+import bokovuruskhan.roles_rest.data.repository.IRoleRepository;
 import bokovuruskhan.roles_rest.service.IRoleService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
