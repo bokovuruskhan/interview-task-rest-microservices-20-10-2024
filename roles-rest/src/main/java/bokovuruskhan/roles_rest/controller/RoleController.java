@@ -1,8 +1,8 @@
 package bokovuruskhan.roles_rest.controller;
 
+import bokovuruskhan.database.model.Role;
 import bokovuruskhan.roles_rest.config.RestConfig;
 import bokovuruskhan.roles_rest.util.RequestBaseLogic;
-import bokovuruskhan.roles_rest.data.model.Role;
 import bokovuruskhan.roles_rest.service.IRoleService;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

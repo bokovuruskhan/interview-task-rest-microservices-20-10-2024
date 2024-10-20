@@ -1,8 +1,9 @@
 package bokovuruskhan.users_rest.controller;
 
+import bokovuruskhan.database.model.User;
 import bokovuruskhan.users_rest.config.RestConfig;
 import bokovuruskhan.users_rest.util.RequestBaseLogic;
-import bokovuruskhan.users_rest.data.model.User;
+
 import bokovuruskhan.users_rest.service.IUserService;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

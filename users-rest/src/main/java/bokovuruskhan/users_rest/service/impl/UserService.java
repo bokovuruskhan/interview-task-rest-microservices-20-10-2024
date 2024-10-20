@@ -1,8 +1,9 @@
 package bokovuruskhan.users_rest.service.impl;
 
+import bokovuruskhan.database.model.User;
+import bokovuruskhan.database.repository.IUserRepository;
 import bokovuruskhan.users_rest.controller.ex.UserNotFoundException;
-import bokovuruskhan.users_rest.data.model.User;
-import bokovuruskhan.users_rest.data.repository.IUserRepository;
+
 import bokovuruskhan.users_rest.service.IUserService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;

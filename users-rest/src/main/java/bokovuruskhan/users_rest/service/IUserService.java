@@ -1,6 +1,8 @@
 package bokovuruskhan.users_rest.service;
 
-import bokovuruskhan.users_rest.data.model.User;
+
+
+import bokovuruskhan.database.model.User;
 
 import java.util.List;
 
