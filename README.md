@@ -26,3 +26,8 @@
 2. Запустить build_jars.bat (windows)
 3. Запустить build_docker_images.bat (windows)
 4. Открыть командную строку, ввести docker-compose up -d
+
+swagger:
+http://localhost:10001/swagger-ui/index.html# Пользователи
+http://localhost:10002/swagger-ui/index.html# Роли
+http://localhost:10003/swagger-ui/index.html# ПользователиРоли
