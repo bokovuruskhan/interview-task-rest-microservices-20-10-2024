@@ -1,6 +1,5 @@
 package bokovuruskhan.users_rest.controller;
 
-import bokovuruskhan.users_rest.config.RestConfig;
 import bokovuruskhan.users_rest.util.RequestBaseLogic;
 import bokovuruskhan.users_rest.data.model.User;
 import bokovuruskhan.users_rest.service.IUserService;
@@ -14,12 +13,15 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static bokovuruskhan.common.util.RestUtils.API_PREFIX;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
-@RequestMapping(value = RestConfig.API_PREFIX, produces = APPLICATION_JSON_VALUE)
+@RequestMapping(value = API_PREFIX + UserController.CONTROLLER_PREFIX, produces = APPLICATION_JSON_VALUE)
 @AllArgsConstructor
 public class UserController {
+
+    public final static String CONTROLLER_PREFIX = "/users";
 
     @Autowired
     private final IUserService userService;

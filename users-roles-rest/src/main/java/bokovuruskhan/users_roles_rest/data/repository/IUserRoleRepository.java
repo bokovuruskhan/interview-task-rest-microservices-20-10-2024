@@ -22,4 +22,10 @@ public interface IUserRoleRepository extends JpaRepository<UserRole, Long> {
     @Transactional
     @Query(value = "INSERT INTO user_role (role_id, user_id) VALUES (?1, ?2)", nativeQuery = true)
     void addRoleToUser(Long roleId, Long userId);
+
+    @Query(value = "SELECT CASE WHEN COUNT(*) > 0 THEN TRUE ELSE FALSE END FROM user_role WHERE role_id = ?1", nativeQuery = true)
+    boolean existsByRoleId(Long roleId);
+
+    @Query(value = "SELECT CASE WHEN COUNT(*) > 0 THEN TRUE ELSE FALSE END FROM user_role WHERE user_id = ?1", nativeQuery = true)
+    boolean existsByUserId(Long userId);
 }

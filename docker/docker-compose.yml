@@ -16,6 +16,7 @@ services:
       JDBC_URL: jdbc:postgresql://db:5432/users_db
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: 123
+      USERS_ROLES_REST_API_URL: "http://users-roles-rest:8080/api/"
     networks:
       - my-network
 
@@ -30,6 +31,7 @@ services:
       JDBC_URL: jdbc:postgresql://db:5432/roles_db
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: 123
+      USERS_ROLES_REST_API_URL: "http://users-roles-rest:8080/api/"
     networks:
       - my-network
 
@@ -44,6 +46,8 @@ services:
       JDBC_URL: jdbc:postgresql://db:5432/users_roles_db
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: 123
+      USERS_REST_API_URL: "http://users-rest:8080/api/users/"
+      ROLES_REST_API_URL: "http://roles-rest:8080/api/roles/"
     networks:
       - my-network
 

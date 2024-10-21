@@ -1,6 +1,5 @@
 package bokovuruskhan.roles_rest.controller;
 
-import bokovuruskhan.roles_rest.config.RestConfig;
 import bokovuruskhan.roles_rest.util.RequestBaseLogic;
 import bokovuruskhan.roles_rest.data.model.Role;
 import bokovuruskhan.roles_rest.service.IRoleService;
@@ -14,12 +13,15 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import static bokovuruskhan.common.util.RestUtils.API_PREFIX;
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
-@RequestMapping(value = RestConfig.API_PREFIX, produces = APPLICATION_JSON_VALUE)
+@RequestMapping(value = API_PREFIX + RoleController.CONTROLLER_PREFIX, produces = APPLICATION_JSON_VALUE)
 @AllArgsConstructor
 public class RoleController {
+
+    public final static String CONTROLLER_PREFIX = "/roles";
 
     @Autowired
     private final IRoleService userService;
