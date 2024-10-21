@@ -4,3 +4,10 @@
 /.idea/
 /.gradle/
 /users-roles-rest/build/
+/docker/postgres_data/
+/docker/roles-rest-0.0.1-SNAPSHOT.jar
+/docker/roles-rest-0.0.1-SNAPSHOT-plain.jar
+/docker/users-rest-0.0.1-SNAPSHOT.jar
+/docker/users-rest-0.0.1-SNAPSHOT-plain.jar
+/docker/users-roles-rest-0.0.1-SNAPSHOT.jar
+/docker/users-roles-rest-0.0.1-SNAPSHOT-plain.jar
